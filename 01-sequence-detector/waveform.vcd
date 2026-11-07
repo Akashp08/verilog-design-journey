@@ -1,0 +1,109 @@
+$date
+	Thu Oct 29 00:04:45 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_seq_detector $end
+$var wire 1 ! dout $end
+$var reg 1 " clk $end
+$var reg 1 # din $end
+$var reg 1 $ rst $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # din $end
+$var wire 1 $ rst $end
+$var reg 2 % current_state [1:0] $end
+$var reg 1 ! dout $end
+$var reg 2 & next_state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 &
+b0 %
+1$
+0#
+0"
+0!
+$end
+#5000
+1"
+#10000
+0"
+0$
+#15000
+1"
+#20000
+b1 &
+0"
+1#
+#25000
+b1 %
+1"
+#30000
+b10 &
+0"
+0#
+#35000
+b11 &
+b10 %
+1"
+#40000
+0"
+#45000
+b0 &
+b11 %
+1"
+#50000
+b1 &
+1!
+0"
+1#
+#55000
+0!
+b1 %
+1"
+#60000
+b10 &
+0"
+0#
+#65000
+b11 &
+b10 %
+1"
+#70000
+0"
+#75000
+b0 &
+b11 %
+1"
+#80000
+1!
+b1 &
+0"
+1#
+#85000
+0!
+b1 %
+1"
+#90000
+b10 &
+0"
+0#
+#95000
+b11 &
+b10 %
+1"
+#100000
+0"
+#105000
+b0 &
+b11 %
+1"
+#110000
+0"
